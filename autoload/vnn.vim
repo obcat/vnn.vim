@@ -31,7 +31,6 @@ let s:popup_time     = get(g:, 'vnn_popup_time', 800)
 let s:popup_zindex   = get(g:, 'vnn_popup_zindex', 1000)
 let s:popup_close_on_cursormoved = get(g:, 'vnn_popup_close_on_cursormoved', 1)
 
-let s:popup_borderchars = ['─', '│', '─', '│', '┌', '┐', '┘', '└']
 let s:popup_border_int = 1
 let s:popup_border = repeat([s:popup_border_int], 4)
 let s:popup_padding_int = 0
@@ -72,7 +71,6 @@ endfunc
 
 func! s:get_popup_options(msg) abort
   let l:options = #{
-    \ borderchars: s:popup_borderchars,
     \ border:  s:popup_border,
     \ padding: s:popup_padding,
     \ time:  s:popup_time,

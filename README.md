@@ -2,7 +2,7 @@
 
 vnn scans wrapscan!
 
-![vnn](https://user-images.githubusercontent.com/64692680/97259228-a38ec500-185d-11eb-98eb-c33c1b20eb51.gif)
+![vnn](https://user-images.githubusercontent.com/64692680/97264693-c83c6a00-1868-11eb-9739-21e318a316a2.gif)
 
 ## Usage
 

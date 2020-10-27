@@ -7,7 +7,7 @@ set cpo&vim
 
 
 let s:arrow_up = [
-  \ '    ━━━━━━    ',
+  \ '    ──────    ',
   \ '      ╱╲      ',
   \ '     ╱  ╲     ',
   \ '    ╱    ╲    ',
@@ -21,7 +21,7 @@ let s:arrow_down = [
   \ '    ╲    ╱    ',
   \ '     ╲  ╱     ',
   \ '      ╲╱      ',
-  \ '    ━━━━━━    ',
+  \ '    ──────    ',
   \ ]
 
 let s:bot2top_msg = get(g:, 'vnn_bot2top_msg', s:arrow_up)

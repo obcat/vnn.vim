@@ -49,9 +49,9 @@ func! s:searchforward(n) abort
 endfunc
 
 func! s:pos_less_than(pos1, pos2) abort
-  return a:pos1.line != a:pos2.line ?
-    \ a:pos1.line < a:pos2.line
-    \:a:pos1.col < a:pos2.col
+  return a:pos1.line != a:pos2.line
+    \ ? a:pos1.line < a:pos2.line
+    \ : a:pos1.col  < a:pos2.col
 endfunc
 
 func! s:get_popup_coord(msg) abort
